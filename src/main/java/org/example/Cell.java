@@ -1,5 +1,10 @@
 package org.example;
 
+
+/**
+ * Represents a single cell in the Minesweeper grid.
+ * Manages whether the cell contains a mine, the count of adjacent mines, and its revealed state.
+ */
 public class Cell {
     private boolean hasMine;
     private int adjacentMines;

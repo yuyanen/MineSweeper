@@ -4,6 +4,11 @@ package org.example;
 import java.io.IOException;
 import java.util.Scanner;
 
+
+/**
+ * Main class for the Minesweeper application.
+ * Provides the user interface to interact with the game through the command line.
+ */
 public class MinesweeperApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

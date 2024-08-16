@@ -3,6 +3,10 @@ package org.example;
 
 import java.util.Random;
 
+/**
+ * Manages the Minesweeper game logic including grid initialization, mine placement,
+ * adjacent mine counting, cell uncovering, and win condition checking.
+ */
 public class Minesweeper {
     private final Cell[][] grid;
     private final int size;
