@@ -9,6 +9,4 @@
 ## Instructions to Run
 1. Ensure you have Java Development Kit (JDK) 17 or higher installed.
 2. Navigate to the `src` directory.
-3. Open CMD and Compile the Java files using the following command:
-   javac -d bin main\java\org\example\*.java
-4. Run java -cp bin org.example.MinesweeperApp
+3. Open CMD Run Command: java -cp bin org.example.MinesweeperApp
