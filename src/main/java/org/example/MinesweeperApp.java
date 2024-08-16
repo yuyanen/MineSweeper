@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Provides the user interface to interact with the game through the command line.
  *
  * Design Overview:
- * - The `MinesweeperApp` class provides a simple command-line interface for the user to play the Minesweeper game.
+ * - The MinesweeperApp class provides a simple command-line interface for the user to play the Minesweeper game.
  * - It prompts the user for input, processes game actions, and displays the current state of the grid after each move.
  *
  * Assumptions:

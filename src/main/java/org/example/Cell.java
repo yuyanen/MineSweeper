@@ -6,7 +6,7 @@ package org.example;
  * Manages whether the cell contains a mine, the count of adjacent mines, and its revealed state.
  *
  * Design Overview:
- * - The `Cell` class encapsulates the state and behavior of an individual cell within the Minesweeper grid.
+ * - The Cell class encapsulates the state and behavior of an individual cell within the Minesweeper grid.
  * - Each cell tracks whether it contains a mine, the number of adjacent mines, and whether it has been revealed.
  *
  * Assumptions:
