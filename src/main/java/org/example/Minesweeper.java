@@ -6,6 +6,17 @@ import java.util.Random;
 /**
  * Manages the Minesweeper game logic including grid initialization, mine placement,
  * adjacent mine counting, cell uncovering, and win condition checking.
+ *
+ * Design Overview:
+ * - The `Minesweeper` class handles the core game logic. It manages a grid of `Cell` objects, placing mines,
+ *   calculating adjacent mine counts, and processing user input.
+ * - The game board is represented as a 2D array of `Cell` objects, where each cell knows if it contains a mine
+ *   and how many mines are adjacent to it.
+ *
+ * Assumptions:
+ * - The grid size and number of mines are determined at the start of the game.
+ * - Mines are placed randomly on the grid, and the number of mines is capped at 35% of the total grid squares.
+ * - The game continues until the player either uncovers all non-mine cells or uncovers a mine.
  */
 public class Minesweeper {
     private final Cell[][] grid;

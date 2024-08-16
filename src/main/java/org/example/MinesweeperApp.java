@@ -8,6 +8,14 @@ import java.util.Scanner;
 /**
  * Main class for the Minesweeper application.
  * Provides the user interface to interact with the game through the command line.
+ *
+ * Design Overview:
+ * - The `MinesweeperApp` class provides a simple command-line interface for the user to play the Minesweeper game.
+ * - It prompts the user for input, processes game actions, and displays the current state of the grid after each move.
+ *
+ * Assumptions:
+ * - The user inputs valid grid coordinates in the form of a letter (row) followed by a number (column).
+ * - The game grid is square-shaped, and the number of mines is a valid input within the specified limits.
  */
 public class MinesweeperApp {
     public static void main(String[] args) {

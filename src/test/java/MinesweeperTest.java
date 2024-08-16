@@ -6,6 +6,11 @@ import org.example.Minesweeper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
+/**
+ * Unit tests for the Minesweeper game logic.
+ * Verifies grid initialization, mine placement, adjacent mine calculation, cell uncovering, and win condition.
+ */
 public class MinesweeperTest {
     private Minesweeper game;
 
