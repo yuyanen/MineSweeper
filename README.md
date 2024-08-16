@@ -35,6 +35,7 @@
      
   3. Verify Installation:
      Open a terminal or command prompt and run: mvn -v
+     
  **Setup and Run**:
   1. Clone or download the project files.
      
