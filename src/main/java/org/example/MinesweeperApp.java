@@ -18,6 +18,8 @@ import java.util.Scanner;
  * - The game grid is square-shaped, and the number of mines is a valid input within the specified limits.
  */
 public class MinesweeperApp {
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -80,6 +82,13 @@ public class MinesweeperApp {
         }
     }
 
+
+    /**
+     * Prints the current state of the Minesweeper grid.
+     * Revealed cells show the number of adjacent mines or a mine symbol, while unrevealed cells are hidden.
+     *
+     * @param game the Minesweeper game instance to retrieve the grid from.
+     */
     private static void printGrid(Minesweeper game) {
         Cell[][] grid = game.getGrid();
         int size = game.getSize();
@@ -98,12 +107,12 @@ public class MinesweeperApp {
                 Cell cell = grid[i][j];
                 if (cell.isRevealed()) {
                     if (cell.hasMine()) {
-                        System.out.print("* ");
+                        System.out.print("* ");  // Print mine
                     } else {
-                        System.out.print(cell.getAdjacentMines() + " ");
+                        System.out.print(cell.getAdjacentMines() + " ");  // Print number of adjacent mines
                     }
                 } else {
-                    System.out.print("_ ");
+                    System.out.print("_ ");   // Print hidden cell
                 }
             }
             System.out.println();
